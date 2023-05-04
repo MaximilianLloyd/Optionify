@@ -9,7 +9,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           cache: "pnpm"
-          node-version: 18.0
+          node-version: 18.x
 
       - run: pnpm install --frozen-lockfile
       - run: pnpm run lint && pnpm run build
