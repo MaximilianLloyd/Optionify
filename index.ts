@@ -1,3 +1,3 @@
 export function index() {
-		return 'Hello World';
+		return 'Hello World testing this';
 }
