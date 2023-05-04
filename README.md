@@ -23,6 +23,8 @@ return <Select options={options} />;
 Into this:
 
 ```tsx
+import { optionify } from '@branch/optionify'
+
 const users = [
   {
     name: "John",

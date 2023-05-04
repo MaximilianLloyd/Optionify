@@ -1,4 +1,3 @@
-
 export function optionify<
   T extends Record<LabelKey, any> & Record<ValueKey, any>,
   LabelKey extends keyof T = keyof T,
