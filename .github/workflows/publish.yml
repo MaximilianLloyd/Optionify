@@ -23,6 +23,7 @@ jobs:
         uses: changesets/action@v1        
         with:
           publish: pnpm run release
+          
 
 
 name: Publish
